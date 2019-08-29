@@ -1,0 +1,32 @@
+    version 8.1.0
+    min version 8.1.0
+    number of documents 3
+    uses compound file true
+    diagnostics 10
+      key os
+      value Mac OS X
+      key java.vendor
+      value AdoptOpenJDK
+      key java.version
+      value 11.0.1
+      key java.vm.version
+      value 11.0.1+13
+      key lucene.version
+      value 8.1.0
+      key os.arch
+      value x86_64
+      key java.runtime.version
+      value 11.0.1+13
+      key source
+      value flush
+      key os.version
+      value 10.14.6
+      key timestamp
+      value 1567097733892
+    attributes 0
+    files 2
+      file _0.si
+      file _0.scf
+    id t«v<bèúcu∫∂+›±ı
+    sort 0
+checksum 00000000000273198348

@@ -1,0 +1,208 @@
+cfs entry for: _0.dat
+field score
+  type NUMERIC
+  minvalue 1065353216
+  pattern 00000000
+00000000
+T
+08388608
+T
+16777216
+T
+field city
+  type SORTED
+  numvalues 2
+  maxlength 13
+  pattern 00
+  ordpattern 0
+length 11
+Mill Valley  
+length 13
+San Francisco
+1
+2
+2
+END
+checksum 00000000002622423337
+cfs entry for: _0.dii
+field count 1
+  field fp name count
+  field fp 137
+checksum 00000000002910230163
+cfs entry for: _0.dim
+block count 3
+  doc 0
+  doc 1
+  doc 2
+  block value [80 0 0 0 0 0 0 1]
+  block value [80 0 0 0 0 0 0 2]
+  block value [80 0 0 0 0 0 0 3]
+num data dims 1
+num index dims 1
+bytes per dim 8
+max leaf points 1024
+index count 1
+min value [80 0 0 0 0 0 0 1]
+max value [80 0 0 0 0 0 0 3]
+point count 3
+doc count 3
+  block fp 0
+split count 1
+  split dim 0
+  split value [0 0 0 0 0 0 0 0]
+END
+checksum 00000000001649652166
+cfs entry for: _0.fld
+doc 0
+  field 0
+    name first
+    type string
+    value doug
+  field 1
+    name last
+    type string
+    value t
+doc 1
+  field 0
+    name first
+    type string
+    value kevin
+  field 1
+    name last
+    type string
+    value r
+doc 2
+  field 0
+    name first
+    type string
+    value evan
+  field 1
+    name last
+    type string
+    value n
+END
+checksum 00000000003836468743
+cfs entry for: _0.inf
+number of fields 6
+  name first
+  number 0
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+  name last
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+  name color
+  number 2
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+  name count
+  number 3
+  index options NONE
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  data dimensional count 1
+  index dimensional count 1
+  dimensional num bytes 8
+  soft-deletes false
+  name score
+  number 4
+  index options NONE
+  term vectors false
+  payloads false
+  norms true
+  doc values NUMERIC
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+  name city
+  number 5
+  index options NONE
+  term vectors false
+  payloads false
+  norms true
+  doc values SORTED
+  doc values gen -1
+  attributes 0
+  data dimensional count 0
+  index dimensional count 0
+  dimensional num bytes 0
+  soft-deletes false
+checksum 00000000002562133785
+cfs entry for: _0.pst
+field color
+  term blue
+    doc 0
+    doc 1
+  term red
+    doc 2
+field first
+  term doug
+    doc 0
+  term evan
+    doc 2
+  term kevin
+    doc 1
+field last
+  term n
+    doc 2
+  term r
+    doc 1
+  term t
+    doc 0
+END
+checksum 00000000003747779605
+table of contents, size: 6
+  filename: _0.dat
+    start: 22
+    end: 293
+  filename: _0.dii
+    start: 315
+    end: 396
+  filename: _0.dim
+    start: 418
+    end: 830
+  filename: _0.fld
+    start: 852
+    end: 1229
+  filename: _0.inf
+    start: 1251
+    end: 2812
+  filename: _0.pst
+    start: 2834
+    end: 3080
+table of contents begins at offset: 0000000000000003080
