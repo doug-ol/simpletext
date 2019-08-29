@@ -21,7 +21,7 @@ public class Runner {
            try{
                String path =  "/Users/doug/dev/simpletext/data/idx1";
                createIndex(path);
-               //readIndex(path);
+               readIndex(path);
            }catch(IOException ex){
                System.out.println(ex.toString());
            }
